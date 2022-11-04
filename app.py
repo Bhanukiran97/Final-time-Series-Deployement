@@ -20,10 +20,10 @@ from plotly import graph_objs as go
 
 
 
-wipro_data = pd.read_csv("F:/Project/Files/wipro_daily_data.csv")
-infosys_data = pd.read_csv("F:/Project/Files/infosys_daily_data.csv")
-tatamotors_data = pd.read_csv("F:/Project/Files/tatamotors_daily_data.csv")
-reliance_data = pd.read_csv("F:/Project/Files/reliance_daily_data.csv")
+wipro_data = pd.read_csv("wipro_daily_data.csv")
+infosys_data = pd.read_csv("infosys_daily_data.csv")
+tatamotors_data = pd.read_csv("tatamotors_daily_data.csv")
+reliance_data = pd.read_csv("reliance_daily_data.csv")
 
 data_dict = {'Infosys': infosys_data,
               'Reliance': reliance_data,
