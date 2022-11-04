@@ -51,7 +51,7 @@ n_months = st.slider("Months of Prediction:", 1, 3)
 period = n_months * 30
 
 
-@st.cache
+
 def load_data(x):
     return x
 
