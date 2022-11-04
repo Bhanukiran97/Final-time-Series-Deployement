@@ -9,13 +9,13 @@ import streamlit as st
 from datetime import date
 import pandas as pd
 
-from nsepy import get_history
+
 
 from statsmodels.tsa.arima.model import ARIMA
-#import statsmodels.api as smapi
+
 
 from plotly import graph_objs as go
-#import matplotlib.pyplot as plt
+
 
 
 
